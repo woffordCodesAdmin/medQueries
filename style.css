@@ -1,0 +1,60 @@
+
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 892px) {
+    body {
+      background-color: pink;
+    }
+    .mbTxt{
+        display:none;
+        
+    }
+    .mbTxt2{
+        text-align:center;
+        display:block;
+        margin-top:10vh;
+    }
+    .image{
+        border:solid black;
+          height:75vh;
+          background-size:cover;
+        background-image:url('https://images.unsplash.com/photo-1571442463800-1337d7af9d2f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrJTIwd29tYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1296&q=60');
+        width:100%;
+    }
+    .infoBox{
+        color:purple;
+    }
+  }
+  /* ===================================================== */
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+    .mbTxt{
+        text-align:center;
+        display:block;
+        margin-top:10vh;
+      }
+      .mbTxt2{
+        display:none;
+      }
+      .image{
+          border:solid black;
+          height:75vh;
+          background-size:cover;
+        background-image:url('https://images.unsplash.com/photo-1579880651719-3cef00eae7de?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxhY2slMjBtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1296&q=60');
+        width:100%;
+    }
+    .infoBox{
+        color:brown;
+    }
+  }
+/* -------------------------- */
+  .navBar{
+      display:flex;
+      justify-content: space-around;
+      font-size:11px;
+  }
+
